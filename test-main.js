@@ -48,7 +48,8 @@ System.import('angular2/src/dom/browser_adapter').then(function(browser_adapter)
   __karma__.start();
 });
 
-
+/* I am making some notes here
+*/
 function onlySpecFiles(path) {
   return /_spec\.js$/.test(path);
 }
